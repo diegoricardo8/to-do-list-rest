@@ -1,0 +1,32 @@
+{
+  "name": "projeto-to-do-list-api-rest",
+  "version": "1.0.0",
+  "description": "To do list onde um usuario master conseguira adicionar e visualizar todas as tarefas dos demais usuarios enquanto esses outros usuarios só conseguem adicioanr e visualizar suas proprias tarefas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoricardo8/TODO-LIST-API.git"
+  },
+  "author": "Diego Previato Ricardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoricardo8/TODO-LIST-API.git"
+  },
+  "homepage": "https://github.com/diegoricardo8/TODO-LIST-API/blob/main/README.md",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "consign": "^0.1.6",
+    "express": "^4.17.3",
+    "git": "^0.1.5",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
