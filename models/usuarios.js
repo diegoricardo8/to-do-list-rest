@@ -2,8 +2,7 @@ const moment = require('moment');
 const conexao = require('../infraestrutura/conexao');
 const bcrypt = require('bcrypt');
 
-class CriaUsuario {   
-    
+class Usuario {
 
     criaUsuario(usuario, res) {
 
@@ -79,10 +78,10 @@ class CriaUsuario {
 
             })
 
+
         }
     }
-
-
 }
 
-module.exports = new CriaUsuario
+
+module.exports = new Usuario
